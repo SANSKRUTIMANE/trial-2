@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Suggestion</title>
+    <link rel="stylesheet" href="nearbyhosp.css">
+    <script src="nearbyhosp.js"></script>
+    
+</head>
+<body>
+    
+    <h1>Welcome to our MedAdvisory!!!</h1>
+    <div class="container">
+    <p>Choose your city</p>
+        <input type="checkbox" id="City1" class="Place"  name="Place" >
+        <label for="City1" font-size="20px">Delhi</label>
+        <input type="checkbox" id="City2" class="Place"  name="Place">
+        <label for="City2">Jaipur</label>
+        <input type="checkbox" id="City3" class="Place"  name="Place">
+        <label for="City3">Chennai</label>
+        <input type="checkbox" id="City4" class="Place"  name="Place">
+        <label for="City4">Allahabad(Prayagraj)</label>
+        <input type="checkbox" id="City5" class="Place"  name="Place">
+        <label for="City5">Kolkata</label>
+       
+        <button id="btn">
+         <div class="popup" onclick="myFunction()">Suggest Hospital
+        <span class="popuptext" id="myPopup">
+        <div id = "result1"></div>
+        <div id = "result2"></div>
+        <div id = "result3"></div>
+        <div id = "result4"></div>
+        <div id = "result5"></div></span>
+           </button>
+        
+    </div>
+</body>
+</html>

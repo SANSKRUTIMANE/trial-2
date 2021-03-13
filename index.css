@@ -1,0 +1,163 @@
+.heading
+{
+  color:rgb(14, 14, 15);
+}
+
+body {
+  font-family: system-ui;
+  background: linear-gradient(to bottom);
+  color: black;
+  height: 100vh;
+  margin: 0;
+  display: grid;
+  place-items: center;
+}
+.split {
+  height: 100%;
+  width: 80%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+
+.left {
+  left: 0;
+  background-color: rgb(22, 12, 82);
+    
+ 
+}
+
+
+.right {
+  top: 0%;
+  right: 0;
+  background-color: rgb(48, 190, 160);
+  color:rgb(22, 12, 82);
+  
+}
+
+.centered img {
+  
+  border-radius: 50%;
+  display: block;
+  margin-left:  10px;
+  margin-right:10px ;
+  width: 23%;
+  
+}
+.topnav {
+  background-color: rgb(48, 190, 160);
+  overflow: hidden;
+  color:rgb(14, 14, 15);;
+}
+
+
+.topnav a {
+  float: left;
+  color: #111111;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: fantasy;
+}
+
+
+.topnav a:hover {
+  background-color: rgb(226, 151, 65);
+  color: rgb(189, 226, 247);
+}
+
+
+.topnav a.active {
+  background-color: rgb(176, 235, 232) ;
+  color: rgb(17, 16, 16);
+}
+
+.logo img{
+    float:centre;
+    width:150px;
+    height:150px;
+}
+
+.tablink{
+  
+  margin-top: 25px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(226, 151, 65);
+  color: rgb(29, 5, 3); 
+  font-size: 25px;
+  text-align: center;
+}
+.head1{
+  color:rgb(97, 4, 39);
+  font-size: 30px;
+  font-family: 'Noto Serif', serif;
+}
+.head2{
+  color: rgb(21, 4, 83);
+  font-size: 25px;
+  font-family: 'Kavivanar', cursive;
+}
+.head3{
+  color:rgb(97, 4, 39);
+  font-size: 30px;
+  font-family: 'Noto Serif', serif;
+  }
+.head4{
+    color: rgb(21, 4, 83);
+    font-size: 25px;
+    font-family: 'Kavivanar', cursive;
+    }
+  .head5{
+      color:rgb(97, 4, 39);
+      font-size: 30px;
+      font-family: 'Noto Serif', serif;
+      }
+      .head6{
+        color: rgb(21, 4, 83);
+        font-size: 25px;
+        font-family: 'Kavivanar', cursive;
+        }
+        .head7{
+          color:rgb(97, 4, 39);
+          font-size: 30px;
+          font-family: 'Noto Serif', serif;
+          }
+          .head8{
+            color: rgb(21, 4, 83);
+            font-size: 25px;
+            font-family: 'Kavivanar', cursive;
+             ;
+            }
+            .head9{
+              color:rgb(97, 4, 39);
+              font-size: 30px;
+              font-family: 'Noto Serif', serif;
+              }
+              .head10{
+                color: rgb(21, 4, 83);
+                font-size: 25px;
+                font-family: 'Kavivanar', cursive;
+                }
+                .review{
+                  color:rgb(17, 17, 17);
+                  font-size: 30px;
+                  font-family: 'Kavoon', cursive;
+                }
+.logoinfo{
+  font-size: 25px;
+  align-content: center;
+  color: rgb(243, 173, 228);
+  font-family: 'Acme', sans-serif;
+}
+.logopro{
+  font-size: 25px;
+  align-content: center;
+  color: rgb(243, 173, 228);
+}
+
